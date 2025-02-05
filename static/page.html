@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="/static/app.js"></script>
+</head>
+<body>
+    <h2>Carica un file</h2>
+<form onsubmit="uploadFile(event)">
+    <input type="file" name="files" multiple>
+    <button class="upload-btn" type="submit">📤 Carica</button>
+</form>
+
+<h2>File caricati</h2>
+<table id="fileTable">
+    <thead>
+        <tr>
+            <th>Nome File</th>
+            <th>Data di Caricamento</th>
+            <th>Azioni</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+</body>
+</html>

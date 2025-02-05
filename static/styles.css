@@ -1,0 +1,160 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* STILE FORM */
+form {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    font-weight: bold;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.rename-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.rename-btn:hover {
+    background-color: #0056b3;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #a71d2a;
+}
+
+.upload-btn {
+    background: #3498db;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+/* STILE TABELLA */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header della tabella */
+th {
+    background: #34495e;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Corpo della tabella */
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternanza di colore tra le righe */
+tbody tr:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+tbody tr:nth-child(even) {
+    background: #ffffff;
+}
+
+/* Effetto hover sulla riga */
+tbody tr:hover {
+    background: #ecf0f1;
+    transition: background 0.3s ease;
+}
+
+/* Link per il download */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pulsante di eliminazione */
+.delete-btn {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.delete-btn:hover {
+    background: #c0392b;
+}
+
+.renameBox {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.renameBox input {
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.renameBox button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #007bff;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.renameBox button:hover {
+    background-color: #0056b3;
+}
